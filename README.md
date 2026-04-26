@@ -9,3 +9,7 @@ session_reconstruct.sh
 boot_diff.sh
 -------------
 	diffs startup baseline to current system on 5 minute intervals
+
+boot_snapshot.sh
+-------------
+	creates a snapshot of the system at boot, used to diff over time
